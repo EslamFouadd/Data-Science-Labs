@@ -17,5 +17,3 @@ Review and visualize the final DNN shape
 Train the model locally and visualize the loss curves
 
 Deploy and predict with the model using Cloud AI Platform
-
-Setup
