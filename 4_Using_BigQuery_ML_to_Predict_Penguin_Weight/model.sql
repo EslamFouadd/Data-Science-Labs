@@ -4,7 +4,7 @@
 CREATE OR REPLACE MODEL `bqml_tutorial.penguins_model`
 OPTIONS
   (model_type='linear_reg',
-  input_label_cols=['body_mass_g']) AS
+    input_label_cols=['body_mass_g']) AS
 SELECT
   *
 FROM
