@@ -1,0 +1,23 @@
+Training Job Report    
+Cross Validation Score: 0.8004354136429608
+Training Model Parameters: {"kernel": "linear", "degree": 3, "C": 1.0, "probability": true}
+Test Data Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88        73
+           1       0.85      0.82      0.83        55
+
+    accuracy                           0.86       128
+   macro avg       0.86      0.85      0.86       128
+weighted avg       0.86      0.86      0.86       128
+
+Example of data array for prediciton:
+Order of columns:
+['sex', 'age', 'fare', 'pclass', 'embarked', 'home_dest', 'parch', 'sibsp']
+Example for clf.predict()
+[['male', 31.0, 57.0, 1, 'S', 'Calgary, AB', 0, 1], 
+['female', 35.0, 512.3292, 1, 'C', '?', 0, 0]]
+Example of GCP API request body:
+{
+    "instances": [["male", 31.0, 57.0, 1, "S", "Calgary, AB", 0, 1], ["female", 35.0, 512.3292, 1, "C", "?", 0, 0]]
+}
