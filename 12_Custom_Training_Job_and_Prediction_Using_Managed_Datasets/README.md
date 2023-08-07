@@ -11,3 +11,5 @@ Create a dataset for tabular data.
 Create a training package with custom code using Notebooks.
 
 Deploy the trained model and get online predictions.
+
+![survived, sibsp, parch, fare by pclass](https://github.com/EslamFouadd/Data-Science-Labs/assets/77150715/c54394b6-ab4f-4e1a-9de4-cc536571160d)
